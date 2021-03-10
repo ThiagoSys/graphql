@@ -21,6 +21,9 @@ type Query {
     " Devuelve todos los datos del proyecto " 
     getProjects: [Project]
 
+    " Devuelve todos los datos del usuario " 
+    getUsuarios: [Usuario]
+
     " Busca los datos del proyecto por ID and Title "   
     getProjectId(id:ID!): [Project]
     getProjectTitle(title:String!): [Project]
